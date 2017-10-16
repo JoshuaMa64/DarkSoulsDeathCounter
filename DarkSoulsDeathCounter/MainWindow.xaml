@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DarkSoulsDeathCounter"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="黑暗之魂1死亡次数查看器" Height="300" Width="350" Drop="Window_Drop" Name="Mw" AllowDrop="True">
     <Grid>
-        
+        <TextBlock Name="Tb" Text="将DRAKS0005.sl2存档文件拖动到此窗体上以查看该存档死亡次数记录" TextWrapping="Wrap" Margin="10"/>
     </Grid>
 </Window>
